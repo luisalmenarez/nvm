@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+#storybook-root {
+  display: grid;
+  place-items: center;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
